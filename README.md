@@ -35,7 +35,7 @@ A RESTful API for managing inventory products built with Node.js, Express, Mongo
 git clone <repo-url>
 cd inventory-api
 npm install
-
+```
 ---
 
 
