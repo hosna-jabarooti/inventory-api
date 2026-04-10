@@ -36,7 +36,10 @@ git clone <repo-url>
 cd inventory-api
 npm install
 
-🔑 Environment Variables
+---
+
+
+## 🔑 Environment Variables
 Create a .env file:
 
 PORT=300
@@ -49,12 +52,16 @@ Before using the API, you must generate fake data:
 node utils/dataGenerator.js
 This will create sample products for testing.
 
-▶️ Run the Project
+---
+
+
+## ▶️ Run the Project
 npm start
 or
 nodemon app.js
+---
 
-📌 API Endpoints
+## 📌 API Endpoints
 Products
 GET /products
 GET /products/:id
@@ -67,8 +74,9 @@ Pagination → ?page=1&limit=10
 Filtering → ?category=electronics
 Price range → ?minPrice=100&maxPrice=500
 Sorting → ?sort=-price
+---
 
-🔐 Auth
+## 🔐 Auth
 Register
 Login
 JWT-based authentication
@@ -83,7 +91,9 @@ services/
 middlewares/
 utils/
 
-🧠 Notes
+---
+
+## 🧠 Notes
 Make sure MongoDB is running
 Run data generator before testing endpoints
 .env file is required
